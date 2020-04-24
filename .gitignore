@@ -24,3 +24,5 @@ yarn-error.log*
 
 *.zip
 /src/img/gallery-Copy
+
+/tools
