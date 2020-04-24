@@ -1,0 +1,118 @@
+.splash__profile-image--container {
+  position: relative;
+  height: 100%;
+}
+
+.splash__profile-image--image {
+  width: 100%;
+}
+
+.splash__profile-image--border {
+  border-style: solid;
+  border-width: 0.75em;
+}
+
+.splash__profile-image--overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
+  
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.splash__profile-image--rotate {
+  transform: rotate(-1.5deg);
+
+  -webkit-box-shadow: 16px 11px 43px -25px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 16px 11px 43px -25px rgba(0, 0, 0, 0.78);
+  box-shadow: 16px 11px 43px -25px rgba(0, 0, 0, 0.78);
+}
+
+.splash__text--container {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  text-align: left;
+  z-index: 11;
+  height: 80%;
+}
+
+@font-face {
+  font-family: "AlienEncounters";
+  src: url("../fonts/Alien-Encounters-Regular.ttf");
+  src: local("Alien Encounters"), local("Alien-Encounters"),
+    url("../fonts/Alien-Encounters-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AlienEncounters";
+  src: url("../fonts/Alien-Encounters-Bold.ttf");
+  src: local("Alien Encounters Bold"), local("Alien-Encounters-Bold"),
+    url("../fonts/Alien-Encounters-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+
+.splash__text {
+  font-size: 5em;
+  color: #fffff1;
+  /* Alien-Encounters-Bold.ttf */
+  font-family: "AlienEncounters", "Arial Black", "Arial Bold", Gadget,
+    sans-serif;
+}
+
+.splash__nav--container {
+  margin-top: 25%;
+  margin-left: 90%;
+}
+
+.splash__nav--ul {
+  list-style-type: none;
+}
+
+.splash__nav--item {
+  font-size: 2em;
+  margin-top: 70%;
+  color: #fffff1;
+  /* Alien-Encounters-Bold.ttf */
+  font-family: "AlienEncounters", "Arial Black", "Arial Bold", Gadget,
+    sans-serif;
+}
+
+@media only screen and (max-width: 950px) {
+
+  .splash__nav--container {
+    margin-left: 0px;
+  }
+
+  .splash__nav--container {
+    display: none;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .splash__text {
+    font-size: 3em;
+    overflow: hidden;
+  }
+}

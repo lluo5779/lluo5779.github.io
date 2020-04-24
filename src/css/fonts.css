@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'AlienEncounters';
+	src: url('fonts/Alien-Encounters-Regular.ttf'); 
+	src: 
+		local('Alien Encounters'),
+		local('Alien-Encounters'),
+		url('fonts/Alien-Encounters.ttf') 
+		format('opentype');
+}
+
+
+@font-face {
+	font-family: 'AlienEncounters';
+	src: url('fonts/Alien-Encounters-Bold.ttf'); 
+	src: 
+		local('Alien Encounters Bold'),
+		local('Alien-Encounters-Bold'),
+		url('fonts/Alien-Encounters-Bold.ttf') 
+        format('opentype');
+    font-weight:bold;
+}

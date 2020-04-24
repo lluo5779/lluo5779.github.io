@@ -1,0 +1,96 @@
+html{
+  scroll-behavior: smooth;
+  cursor: crosshair;
+}
+
+.pages {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page{
+  margin-bottom: 5%;
+  position: relative;
+  overflow: overlay;
+}
+
+.heading{
+  margin-bottom:3%;
+}
+
+
+.scroll_to_top {
+  
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 8; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  
+  
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+#scroll_to_top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
+a:hover {
+  color: rgb(200,200,200);
+  text-decoration: none;
+
+}
+
+
+.suspense__icon--wrapper{
+  opacity: 0;
+  animation: bobble 2s;
+}
+
+@keyframes bobble {
+  0% {
+      transform: translate3d(0, 10%, 0px);
+      animation-timing-function: ease-in;
+      opacity:1;
+  }
+  50% {
+      transform: translate3d(0, 90%, 0px);
+      animation-timing-function: ease-out;
+  }
+  100% {
+      transform: translate3d(0, 50%, 0px);
+      opacity: 0.2;
+  }
+}

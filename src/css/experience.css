@@ -1,0 +1,42 @@
+.experience__cover {
+  position: relative;
+  width: 100%;
+}
+
+.experience__cover--container {
+  position: relative;
+  margin-left: 8%;
+  margin-top: 5%;
+  width: 84%;
+  background-color: #ffffff;
+}
+
+.experience__list--container{
+}
+
+.experience__list--row{
+  margin-bottom: 5%;
+}
+
+.experience__list--img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.col-onethirds {
+  width: 25%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin-right: 10%;
+  margin-left: 15%;
+}
+
+.col-twothirds {
+  width: 45%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin-top: 2%;
+  ;
+}
