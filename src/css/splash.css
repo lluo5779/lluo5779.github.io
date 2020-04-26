@@ -86,6 +86,8 @@
 .splash__profile-image--image {
   width: 85%;
   max-height: fit-content;
+  opacity: 1;
+  animation: fadein 1s;
 }
 
 .splash__profile-image--border {
