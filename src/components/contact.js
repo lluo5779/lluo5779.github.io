@@ -13,7 +13,7 @@ class ContactPage extends React.Component {
         </h2>
         <h1 className="heading">Come Say Hi!</h1>
         <div className="contact__info--container">
-          <strong>Email</strong>: louis.luo[at]]mail.utoronto.ca
+          <strong>Email</strong>: louis.luo[at]mail.utoronto.ca
         </div>
         <a href="https://www.facebook.com/louis.luo.5" class="fa fa-facebook"></a>
         <a href="https://www.linkedin.com/in/louisluouoft/" class="fa fa-linkedin"></a>
