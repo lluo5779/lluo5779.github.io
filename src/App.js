@@ -5,17 +5,17 @@ import "./css/common.css";
 
 import { Planet, Browser } from "react-kawaii";
 
-const SplashPage = lazy(() => import("./components/splash"));
-const GalleryPage = lazy(() => import("./components/gallery"));
-const ExperiencePage = lazy(() => import("./components/experience"));
-const ContactPage = lazy(() => import("./components/contact"));
-const AspirationPage = lazy(() => import("./components/aspiration"));
+import SplashPage from "./components/splash";
+import GalleryPage from "./components/gallery";
+import ExperiencePage from "./components/experience";
+import ContactPage from "./components/contact";
+import AspirationPage from "./components/aspiration";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      appearTopButton: false
+      appearTopButton: false,
     };
     this.showTopButton = this.showTopButton.bind(this);
   }
@@ -34,12 +34,12 @@ class App extends React.Component {
       document.body.scrollTop || document.documentElement.scrollTop;
 
     if (winScroll > 900) {
-      this.setState(state => ({
-        appearTopButton: true
+      this.setState((state) => ({
+        appearTopButton: true,
       }));
     } else {
-      this.setState(state => ({
-        appearTopButton: false
+      this.setState((state) => ({
+        appearTopButton: false,
       }));
     }
   }
@@ -56,47 +56,34 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Suspense
-          fallback={
-            <div className="suspense__icon--wrapper">
-              <Planet
-                size={200}
-                mood="excited"
-                color="#FDA7DC"
-                text="Hello World!"
-              />
-            </div>
-          }
-        >
-          <ul className="pages">
-            <li className="page">
-              <SplashPage />
-            </li>
-            <li className="page">
-              <ExperiencePage />
-            </li>
-            <li className="page">
-              <GalleryPage />
-            </li>
-            {/* <li className="page">
+        <ul className="pages">
+          <li className="page">
+            <SplashPage />
+          </li>
+          <li className="page">
+            <ExperiencePage />
+          </li>
+          <li className="page">
+            <GalleryPage />
+          </li>
+          {/* <li className="page">
             <AspirationPage />
           </li> */}
-            <li className="page">
-              <ContactPage />
-            </li>
-          </ul>
-          {this.state.appearTopButton ? (
-            <div className="scroll_to_top--container">
-              <a href="#home">
-                <button className="scroll_to_top" title="Go to top">
-                  &uArr;
-                </button>
-              </a>
-            </div>
-          ) : (
-            ""
-          )}
-        </Suspense>
+          <li className="page">
+            <ContactPage />
+          </li>
+        </ul>
+        {this.state.appearTopButton ? (
+          <div className="scroll_to_top--container">
+            <a href="#home">
+              <button className="scroll_to_top" title="Go to top">
+                &uArr;
+              </button>
+            </a>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     );
   }

@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.suspense__icon--wrapper{
+  text-align: center;
+}
+
+.suspense__icon{
+  opacity: 0;
+  animation: bobble 2s;
+}
+
+
+@keyframes bobble {
+  0% {
+      transform: translate3d(0, 10%, 0px);
+      animation-timing-function: ease-in;
+      opacity:1;
+  }
+  50% {
+      transform: translate3d(0, 90%, 0px);
+      animation-timing-function: ease-out;
+  }
+  100% {
+      transform: translate3d(0, 50%, 0px);
+      opacity: 0.2;
+  }
+}

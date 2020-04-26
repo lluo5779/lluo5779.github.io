@@ -7,7 +7,7 @@ import { Planet, Browser } from "react-kawaii";
 class GalleryPage extends React.Component {
   render() {
     const subtitles = {
-      1: "Bryce Canyon National Park. Some rain clouds looking heavenly far away.",
+      1: "Crimson-colored hoodoo in the Bryce Canyon National Park, Utah.",
       2: "Hanshin Tigers vs Yokohoma DeNA at Koshien Stadium, a.k.a Japan's Field of Dreams, near Kobe.",
       3: "Sunset at Shoshone point trail, Grand Canyon.",
       4: "Baseball tower at Koshien Stadium near Kobe.",
