@@ -39,7 +39,6 @@ const randMoods = [
   "blissful",
   "lovestruck",
   "excited",
-  "ko",
 ];
 
 const getRandItem = (randItems) =>
