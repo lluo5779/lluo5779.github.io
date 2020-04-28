@@ -37,7 +37,7 @@ class ExperiencePage extends React.Component {
 
             <div className="experience__list--row row">
               <div className="experience__list--column col-onethirds">
-                <h4> Vector Institute (Thesis)</h4>
+                <h4> Vector Institute</h4>
                 <img className="experience__list--img" src={thesis_visual} />
               </div>
 
