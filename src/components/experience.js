@@ -53,7 +53,7 @@ class ExperiencePage extends React.Component {
                 characteristics in the latent space, seen on the left. This
                 thesis can be found{" "}
                 <a
-                  href={`%PUBLIC_URL%/documents/final-report.pdf`}
+                  href={`/documents/final-report.pdf`}
                   style={{ color: "black" }}
                 >
                   <strong>here</strong>
