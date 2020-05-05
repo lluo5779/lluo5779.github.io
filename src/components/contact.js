@@ -15,9 +15,11 @@ class ContactPage extends React.Component {
         <div className="contact__info--container">
           <strong>Email</strong>: louis.luo[at]mail.utoronto.ca
         </div>
-        <a href="https://www.facebook.com/louis.luo.5" class="fa fa-facebook"></a>
-        <a href="https://www.linkedin.com/in/louisluouoft/" class="fa fa-linkedin"></a>
-        
+        <a href="https://www.facebook.com/louis.luo.5/" class="fa fa-facebook" aria-hidden="true"></a>
+        <a href="https://www.linkedin.com/in/louisluouoft/" class="fa fa-linkedin" aria-hidden="true"></a>
+        <a href="https://www.github.com/lluo5779/"class="fa fa-github" aria-hidden="true"></a>
+
+
       </div>
     );
   }
