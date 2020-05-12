@@ -4,6 +4,8 @@ import TIDEL_wordle from "./../img/TIDEL_wordle.png";
 import thesis_visual from "./../img/thesis.png";
 import ACN_visual from "./../img/acn.jpg";
 import Global_visual from "./../img/global.jpg";
+import Osaka_visual from "./../img/osaka.png";
+import Capstone_visual from "./../img/equites.png";
 
 class ExperiencePage extends React.Component {
   render() {
@@ -44,18 +46,15 @@ class ExperiencePage extends React.Component {
               <div className="experience__list--column col-twothirds">
                 <i>September 2019 - April 2020</i> <br />
                 <br />
-                For my undergraduate honors thesis, I worked with Prof. Frank Rudzicz
-                from the Vector Institute to identify patient specific
+                For my undergraduate honors thesis, I worked with Prof. Frank
+                Rudzicz from the Vector Institute to identify patient specific
                 trajectories of developing dementia by applying latent
                 transition analysis (R), and temporal variational recurrent
                 autoencoder (Python). I was able to identify particular
                 subgroups that exhibited exclusive behavioral and functional
                 characteristics in the latent space, seen on the left. This
                 thesis can be found{" "}
-                <a
-                  href={`/documents/final-report.pdf`}
-                  style={{ color: "black" }}
-                >
+                <a href={`/documents/thesis.pdf`} style={{ color: "black" }}>
                   <strong>here</strong>
                 </a>
                 .
@@ -83,7 +82,64 @@ class ExperiencePage extends React.Component {
                 of my crowning achievement was the implementation of the OAuth
                 2.0 security flow, where I lead both the design and coding of
                 parts of for the login flow, which was very difficult, given the
-                existing architecture and cloud integration. 
+                existing architecture and cloud integration.
+              </div>
+            </div>
+
+            <div className="experience__list--row row">
+              <div className="experience__list--column col-onethirds">
+                <h4>Capstone Project</h4>
+                <img
+                  className="experience__list--img"
+                  style={{ border: "1px solid black" }}
+                  src={Capstone_visual}
+                />
+              </div>
+
+              <div className="experience__list--column col-twothirds">
+                <i>September 2019 - December 2019</i> <br />
+                <br />I worked in a team of 5 to build our very own financial
+                robo-advisor. I was responsible for the entire backend
+                subsystem, including PostgreSQL schemas, object-relational
+                mapping, data update routines, and interfacing with the
+                front-end via API. In particular, I employed the 3NF
+                normalization to the database to ensure optimal database design;
+                and a swagger API contract to ensure maintainability. I was also
+                responsible for the login flow and session, as well as hosting
+                on AWS. Specifically, I coordinated the EC2 instance in an EBS
+                with a RDS database, which is updated daily via a Lambda
+                function. The detailed report can be found{" "}
+                <a href="/documents/capstone.pdf" style={{ color: "black" }}>
+                  <strong>here</strong>
+                </a>{" "}
+                and my main contributions can be seen in section 7 of the
+                report.
+              </div>
+            </div>
+
+            <div className="experience__list--row row">
+              <div className="experience__list--column col-onethirds">
+                <h4>Osaka University, Japan</h4>
+                <img className="experience__list--img" src={Osaka_visual} />
+              </div>
+
+              <div className="experience__list--column col-twothirds">
+                <i>May 2018 - August 2018</i> <br />
+                <br />I was honored to be an{" "}
+                <a
+                  href="https://engsci.utoronto.ca/experience/research/esrop-uoft/"
+                  style={{ color: "black" }}
+                >
+                  <strong>ESROP fellow</strong>
+                </a>{" "}
+                appointed by the University of Toronto to work on document-level
+                representations of movie reviews from IMDB in the Research Group
+                of Statistical Inference in Osaka University. In particular, I
+                modified an existing state-of-the-art model for sentiment
+                analysis to develop latent representations of each reviews. In
+                addition to the hands-on experience implementing neural
+                networks, I was fortunate to overcome language barriers, immerge
+                into a foreign culture and befriend like-minded individuals.
               </div>
             </div>
 
