@@ -41,8 +41,14 @@
     float: left;
     position: relative;
     min-height: 1px;
+    
+    padding-top: 0.5%;
+  }
+
+  .experience__list--column {
     margin-top: 2%;
   }
+
   .experience__list--img {
     display: block;
     max-width: 100%;
