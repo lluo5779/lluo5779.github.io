@@ -113,7 +113,15 @@ class ExperiencePage extends React.Component {
                   <strong>here</strong>
                 </a>{" "}
                 and my main contributions can be seen in section 7 of the
-                report.
+                report. While the application is no longer live, the code for
+                the application can be found{" "}
+                <a
+                  href="https://github.com/lluo5779/equites"
+                  style={{ color: "black" }}
+                >
+                  <strong>here</strong>
+                </a>
+                .
               </div>
             </div>
 
