@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.afb432e7.chunk.css",
-    "main.js": "/static/js/main.8323841a.chunk.js",
-    "main.js.map": "/static/js/main.8323841a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4a28412a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4a28412a.js.map",
-    "static/css/2.5905ebdd.chunk.css": "/static/css/2.5905ebdd.chunk.css",
-    "static/js/2.af194281.chunk.js": "/static/js/2.af194281.chunk.js",
-    "static/js/2.af194281.chunk.js.map": "/static/js/2.af194281.chunk.js.map",
+    "main.js": "/static/js/main.301b9353.chunk.js",
+    "main.js.map": "/static/js/main.301b9353.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e8294ccf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e8294ccf.js.map",
+    "static/css/2.42d94dfb.chunk.css": "/static/css/2.42d94dfb.chunk.css",
+    "static/js/2.8d6deb8d.chunk.js": "/static/js/2.8d6deb8d.chunk.js",
+    "static/js/2.8d6deb8d.chunk.js.map": "/static/js/2.8d6deb8d.chunk.js.map",
     "static/js/3.2475e710.chunk.js": "/static/js/3.2475e710.chunk.js",
     "static/js/3.2475e710.chunk.js.map": "/static/js/3.2475e710.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4cbd59068b0a78dae02a90d07f8150f5.js": "/precache-manifest.4cbd59068b0a78dae02a90d07f8150f5.js",
+    "precache-manifest.ff98459a9abc6da2ce7c95c39a443853.js": "/precache-manifest.ff98459a9abc6da2ce7c95c39a443853.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.5905ebdd.chunk.css.map": "/static/css/2.5905ebdd.chunk.css.map",
+    "static/css/2.42d94dfb.chunk.css.map": "/static/css/2.42d94dfb.chunk.css.map",
     "static/css/main.afb432e7.chunk.css.map": "/static/css/main.afb432e7.chunk.css.map",
     "static/js/3.2475e710.chunk.js.LICENSE.txt": "/static/js/3.2475e710.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.19b21d9a.jpg",
@@ -40,15 +40,16 @@
     "static/media/splash.css": "/static/media/Alien-Encounters-Regular.4f02b2e0.ttf",
     "static/media/TIDEL_wordle.png": "/static/media/TIDEL_wordle.53a54f61.png",
     "static/media/acn.jpg": "/static/media/acn.0e6b5fd3.jpg",
+    "static/media/equites.png": "/static/media/equites.e20d892d.png",
     "static/media/global.jpg": "/static/media/global.ca322910.jpg",
     "static/media/horyuji.jpg": "/static/media/horyuji.790766ca.jpg",
     "static/media/osaka.png": "/static/media/osaka.3abafd23.png",
     "static/media/thesis.png": "/static/media/thesis.94f22df5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a28412a.js",
+    "static/js/runtime-main.e8294ccf.js",
     "static/js/3.2475e710.chunk.js",
     "static/css/main.afb432e7.chunk.css",
-    "static/js/main.8323841a.chunk.js"
+    "static/js/main.301b9353.chunk.js"
   ]
 }
