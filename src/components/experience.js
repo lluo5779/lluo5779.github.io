@@ -24,7 +24,7 @@ class ExperiencePage extends React.Component {
               <div className="experience__list--column col-twothirds">
                 <i>Starting September 2020</i> <br />
                 <br />I am currently working with Prof. Christopher Beck on
-                developing solvers for the cutting-stock problem at the{" "}
+                developing prescriptive analytics solutions for a complex industrial packing problem at the{" "}
                 <a
                   href="https://tidel.mie.utoronto.ca/"
                   style={{ color: "black" }}
@@ -34,6 +34,26 @@ class ExperiencePage extends React.Component {
                   </strong>
                 </a>{" "}
                 at the University of Toronto.
+
+                <br />
+                Publication:
+
+                <ol>
+                  <li>
+                      <a href="https://link.springer.com/chapter/10.1007/978-3-031-08011-1_17" style={{ color: "black" }}>
+                        Yiqing L. Luo and Christopher Beck, "Packing by Scheduling: Using Constraint Programming to Solve a Complex 2D Cutting Stock Problem", CPAIOR22: 249-265
+                        </a>
+                   </li>
+                  <li>
+                  <a href="https://tidel.mie.utoronto.ca/pubs/Theses/Luo_Yiqing_202208_MASc_thesis.pdf" style={{ color: "black" }}>
+                    Yiqing L. Luo, "A Scheduling-based Constraint Programming Approach to Solving a Complex Two-Dimensional Two-Stage Cutting Stock Problem", MASc Thesis, 2022
+                </a>
+                </li>
+                </ol>
+
+
+
+
               </div>
             </div>
 

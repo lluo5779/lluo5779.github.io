@@ -133,6 +133,7 @@
 .splash__text--container {
   position: absolute;
   top: 20%;
+  left: -5%;
   text-align: left;
   z-index: 11;
   height: 80%;
