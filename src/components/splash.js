@@ -11,10 +11,10 @@ class SplashPage extends React.Component {
   render() {
     var splash_text_style = { fontSize: "0.8em" };
     return (
-      <div id="home" className="splash__profile-image--container">
+      <div id="home" className="splash__profile-image--container h-100 d-flex align-items-center justify-content-center">
         <div className="splash__profile-image--overlay"></div>
         <img className="splash__profile-image--image" src={Background} />
-        <div className="splash__text--container" ref={this.myRef}>
+        <div className="splash__text--container align-items-center justify-content-center" ref={this.myRef}>
           <h1 className="splash__text">
             <span style={splash_text_style}>
               Hey, <br /> I am
