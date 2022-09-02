@@ -17,7 +17,7 @@ class SplashPage extends React.Component {
         <div className="splash__text--container align-items-center justify-content-center" ref={this.myRef}>
           <h1 className="splash__text">
             <span style={splash_text_style}>
-              Hey, <br /> I am
+              Hi there, <br /> I am
             </span>{" "}
             Louis Luo!
           </h1>
