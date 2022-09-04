@@ -7,23 +7,23 @@ import { Planet, Browser } from "react-kawaii";
 class GalleryPage extends React.Component {
   render() {
     const subtitles = {
-      1: "Crimson-colored hoodoo in the Bryce Canyon National Park, Utah.",
+      1: "Sunset at Shoshone point trail, Grand Canyon.",
       2: "Hanshin Tigers vs Yokohoma DeNA at Koshien Stadium, a.k.a Japan's Field of Dreams, near Kobe.",
-      3: "Sunset at Shoshone point trail, Grand Canyon.",
-      4: "Baseball tower at Koshien Stadium near Kobe.",
-      5: "Hell's Kitchen Burger at Gordon Ramsey Burger in Las Vagas.",
-      6: "NBA championship trophy at Raptor's championship parade.",
-      7: "University College at University of Toronto.",
+      3: "Early morning at the Santa Monica Pier, Los Angeles.",
+      4: "Ferries wheel at the Santa Monica Pier, Los Angeles.",
+      5: "Leaves on wooden planks at the Hilton Falls, Halton.",
+      6: "Griffith Observatory Trail, Los Angeles.",
+      7: "University College at the University of Toronto.",
       8: "Rail tracks at Koshien Station on the Hanshin Main Line.",
       9: "Jeeps parked at Antelope Canyon, Utah.",
-      10: "Fans pleading for Kawhi Leonard to Stay.",
-      11: "Famous sake Honni-daru (buckets) in Meiji Jinggu, Tokyo",
-      12: "Sunset at Knox College, University of Toronto",
-      13: "Senso-ji at Aaskusa, Tokyo, Japan",
-      14: "Some highway in Utah, USA",
-      15: "Rainbow at University of Toronto",
-      16: "Tenryuji Temple Sogenchi Garden at Kyoto, Japan ",
-      17: "Horseshoe bend, Arizona, USA",
+      10: "Roots of Moretan Bay Fig, USC.",
+      11: "Love locks at the Runyon Canyon Park, Los Angeles.",
+      12: "A pinecone at Durham Forest, Uxbridge.",
+      13: "Senso-ji at Aaskusa, Tokyo, Japan.",
+      14: "Hot day at Seaton Trail, Pickering.",
+      15: "Santa Monica Beach, Los Angeles.",
+      16: "Wooden log with ice crystals, Rouge National Park.",
+      17: "Coniferous leaves at the Seaton Trail, Pickering.",
       18: "Home-made Shanghai Shaomai."
     };
     var max = 18;

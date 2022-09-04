@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "pushanddeploy": "git add . && git commit -m 'auto commit' && git push origin dev && gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

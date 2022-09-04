@@ -66,6 +66,7 @@ class ExperiencePage extends React.Component {
               <div className="experience__list--column col-twothirds">
                 <i>September 2019 - April 2020</i> <br />
                 <br />
+                <br />
                 For my undergraduate honors thesis, I worked with Prof. Frank
                 Rudzicz from the Vector Institute to identify patient specific
                 trajectories of developing dementia by applying latent
